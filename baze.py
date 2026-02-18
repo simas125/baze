@@ -23,3 +23,16 @@
 # for zodis in b:
 #     if zodis == zodis[::-1]:
 #         print(zodis)
+didz = 0
+antras = 0
+sar = [2, 1, 3, 2, 5, 6, 4, 8, 7, 9, 15, 12, 11, 14, 10]
+for i in sar:
+    if i>didz:
+        antras=didz
+        didz=i
+    elif didz>i>antras:
+        antras=i
+
+    
+print(didz)
+print(antras)
