@@ -3,4 +3,4 @@ def countletters(s):
     for letter in s:
         b[letter] = b.get(letter, 0) + 1
     return b
-print(countletters("abasfkmkamls;mfhdkhmfdsok asfaskgmako asgfam"))
+print(countletters("abasfkmka"))

@@ -19,12 +19,10 @@
 #     if i > didz:
 #         didz = i
 # print(didz)
-nums = [1, 2, 5, 4, 3]
-def findMax(nums):
-    didz = nums[0]
-    for i in nums:
-        if i > didz:
-            didz = i
-    return didz
-x = didz
-print (x)
+# 5555nums = [1, 2, 5, 4, 3]
+# def findMax(nums):
+#     didz = nums[0]
+#     for i in nums:
+#         if i > didz:
+#             didz = i
+#     return didz

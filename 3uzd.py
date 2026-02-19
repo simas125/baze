@@ -1,8 +1,6 @@
-def twoSum(nums, target):
-    sum = 0
-    sk = 0
-    for i in range(nums):
-        sum = sk[i] + sk[i+1]
-        if sum == target:
-            return sk[i] and sk[i+1]
-    
+def findPair(nums, target):
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)):
+           if nums[i] + nums[j] == target:
+               return [i, j]
+           

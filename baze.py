@@ -48,27 +48,27 @@
 #         print("Sprendimas yra ", reikia, nums[i])
 #     else:
 #         seen[nums[i]] = i
-tikr = {}
-ok = True
-a = input(str("Pirmas zodis: "))
-b = input(str("Antras zodis: "))
-for raide in a:
-    if raide in tikr:
-        tikr[raide] = tikr[raide] + 1
-    else:
-        tikr[raide] = 1
+# tikr = {}
+# ok = True
+# a = input(str("Pirmas zodis: "))
+# b = input(str("Antras zodis: "))
+# for raide in a:
+#     if raide in tikr:
+#         tikr[raide] = tikr[raide] + 1
+#     else:
+#         tikr[raide] = 1
 
-for raide in b:
-    if raide in tikr:
-        tikr[raide] = tikr[raide] - 1
-    else:
-        ok = False
-        break
-for kiekis in tikr.values():
-    if kiekis != 0:
-        ok = False
-        break
-if ok:
-    print("Anagrama")
-else:
-    print("ne anagrama")
+# for raide in b:
+#     if raide in tikr:
+#         tikr[raide] = tikr[raide] - 1
+#     else:
+#         ok = False
+#         break
+# for kiekis in tikr.values():
+#     if kiekis != 0:
+#         ok = False
+#         break
+# if ok:
+#     print("Anagrama")
+# else:
+#     print("ne anagrama")
