@@ -4,4 +4,5 @@ def hasPair(nums, target):
         reikia = target - nums[i]
         if reikia in seen:
             return(True)
-        seen[nums]= i
+        seen[nums[i]]= i
+    return False
